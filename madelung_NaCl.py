@@ -91,5 +91,10 @@ def calcular_sumas_y_graficar(tipo='NaCl', N=1):
     plt.tight_layout()
     plt.show()
 
+
+
 # ==== EJECUTAR SOLO PARA NaCl con tamaño de supercelda N=10 ====
-calcular_sumas_y_graficar('NaCl', N=1)
+if __name__ == "__main__":
+    N_max = 1
+
+    calcular_sumas_y_graficar('NaCl', N_max)
